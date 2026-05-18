@@ -12,17 +12,21 @@ const experiences = [
       "Built and deployed Anomatrix processing 1M+ financial records.",
       "Automated analytics workflows reducing manual effort by 40%.",
       "Developed scalable backend APIs and data pipelines.",
-      "Implemented anomaly detection systems.",
+      "Built anomaly detection systems using machine learning.",
+      "Developed scalable data processing workflows.",
+      "Worked on production-ready systems and reporting automation.",
     ],
   },
   {
     title: "HVAC Analytics & Chiller Optimization",
     company: "Johnson Controls",
-    duration: "Ongoing Domain Work",
+    duration: "Domain Project",
     description: [
       "Developed analytics platform for industrial optimization.",
       "Built KPI dashboards and ROI simulations.",
       "Analyzed HVAC performance and operational efficiency.",
+      "Built analytics workflows using real operational datasets.",
+      "Identified inefficiencies and optimization opportunities.",
     ],
   },
   {
@@ -32,6 +36,7 @@ const experiences = [
     description: [
       "Built NLP chatbot achieving 90%+ intent accuracy.",
       "Worked on preprocessing, feature engineering, and model tuning.",
+      "Evaluated model performance using real-world datasets.",
     ],
   },
   {
@@ -40,7 +45,8 @@ const experiences = [
     duration: "June 2024",
     description: [
       "Developed Node.js-based web application.",
-      "Improved UI responsiveness and backend workflows.",
+      "Improved UI responsiveness.",
+      "Worked on backend workflows and platform improvements.",
     ],
   },
 ];

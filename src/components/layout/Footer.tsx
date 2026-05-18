@@ -80,6 +80,12 @@ export default function Footer() {
               >
                 Email
               </a>
+              <a
+                href="tel:+918010371285"
+                className="text-slate-400 hover:text-primary text-sm transition-colors"
+              >
+                +91 8010371285
+              </a>
               <span className="text-slate-400 text-sm">Mumbai, India</span>
             </div>
           </div>

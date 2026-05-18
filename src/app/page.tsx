@@ -1,33 +1,35 @@
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
-import Hero from "@/components/sections/Hero";
-import About from "@/components/sections/About";
-import Skills from "@/components/sections/Skills";
-import Experience from "@/components/sections/Experience";
-import Projects from "@/components/sections/Projects";
-import Recognitions from "@/components/sections/Recognitions";
-import Contact from "@/components/sections/Contact";
 import Preloader from "@/components/visuals/Preloader";
 import CustomCursor from "@/components/visuals/CustomCursor";
 import Background from "@/components/visuals/Background";
+import CinematicHero from "@/components/sections/CinematicHero";
+import StorytellingJourney from "@/components/sections/StorytellingJourney";
+import Experience from "@/components/sections/Experience";
+import NetflixProjects from "@/components/sections/NetflixProjects";
+import BusinessImpactMetrics from "@/components/sections/BusinessImpactMetrics";
+import InteractiveSkills from "@/components/sections/InteractiveSkills";
+import Recognitions from "@/components/sections/Recognitions";
+import NowBuilding from "@/components/sections/NowBuilding";
+import CinematicFooter from "@/components/layout/CinematicFooter";
+import Navbar from "@/components/layout/Navbar";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen w-full overflow-x-hidden bg-[#050816]">
+    <main className="relative min-h-screen w-full overflow-x-hidden bg-[#0a0a0a]">
       <Preloader />
       <CustomCursor />
       <Background />
       <Navbar />
       
-      <div className="relative z-10">
-        <Hero />
-        <About />
-        <Skills />
+      <div className="relative z-10 flex flex-col">
+        <CinematicHero />
+        <StorytellingJourney />
         <Experience />
-        <Projects />
+        <BusinessImpactMetrics />
+        <NetflixProjects />
+        <NowBuilding />
+        <InteractiveSkills />
         <Recognitions />
-        <Contact />
-        <Footer />
+        <CinematicFooter />
       </div>
     </main>
   );

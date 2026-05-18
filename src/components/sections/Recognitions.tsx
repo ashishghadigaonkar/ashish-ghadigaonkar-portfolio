@@ -12,11 +12,13 @@ const achievements = [
 
 const certifications = [
   "AWS Certified Developer – Associate",
-  "Postman API Fundamentals Expert",
-  "freeCodeCamp APIs & Microservices",
   "HackerRank SQL Certification",
-  "Kaggle Micro-Courses",
+  "Kaggle Data Science & ML",
+  "freeCodeCamp APIs & Microservices",
+  "Postman API Fundamentals Student Expert",
   "Generative AI with Python",
+  "Microsoft Power BI Learning Path",
+  "Introduction to NoSQL",
 ];
 
 export default function Recognitions() {

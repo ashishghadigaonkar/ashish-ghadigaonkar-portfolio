@@ -9,7 +9,8 @@ import {
   BrainCircuit, 
   Cloud, 
   PieChart,
-  Server
+  Server,
+  TerminalSquare
 } from "lucide-react";
 
 const skillCategories = [
@@ -29,7 +30,7 @@ const skillCategories = [
     id: "backend",
     title: "Backend",
     icon: <Server className="w-5 h-5" />,
-    skills: ["Node.js", "Express.js", "REST APIs", "JWT Auth", "Microservices"],
+    skills: ["Node.js", "Express.js", "REST APIs", "JWT Auth", "Microservices", "API Integration"],
   },
   {
     id: "databases",
@@ -39,21 +40,27 @@ const skillCategories = [
   },
   {
     id: "aiml",
-    title: "AI/ML & Data",
+    title: "AI/ML",
     icon: <BrainCircuit className="w-5 h-5" />,
-    skills: ["Machine Learning", "NLP", "Anomaly Detection", "EDA", "RFM Analysis", "CLV Modeling"],
+    skills: ["Machine Learning", "NLP", "Feature Engineering", "Anomaly Detection", "Prompt Engineering", "LLM Integration", "RAG (Basic)", "Model Evaluation", "Data Preprocessing"],
+  },
+  {
+    id: "analytics",
+    title: "Data Analytics & BI",
+    icon: <PieChart className="w-5 h-5" />,
+    skills: ["Power BI", "Tableau", "Pandas", "NumPy", "EDA", "KPI Design", "Forecasting", "RFM Analysis", "CLV Modeling", "Data Visualization", "Power Query", "DAX"],
   },
   {
     id: "cloud",
-    title: "Cloud & DevOps",
+    title: "Cloud & Tools",
     icon: <Cloud className="w-5 h-5" />,
-    skills: ["AWS", "Docker", "Git", "GitHub", "Postman"],
+    skills: ["AWS", "Docker", "Git", "GitHub", "Postman", "Bitbucket", "Jupyter Notebook"],
   },
   {
-    id: "visualization",
-    title: "Visualization",
-    icon: <PieChart className="w-5 h-5" />,
-    skills: ["Power BI", "Tableau", "Matplotlib"],
+    id: "corecs",
+    title: "Core CS",
+    icon: <TerminalSquare className="w-5 h-5" />,
+    skills: ["Data Structures & Algorithms", "OOP", "DBMS", "Operating Systems", "System Design Basics"],
   },
 ];
 
